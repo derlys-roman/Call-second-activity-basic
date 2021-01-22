@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
      * função para chamada da segunda tela, utilizada no button (id: "secondActivityBtn")
      *
      */
-    fun btnClick(){
+    fun btnClick(view: View){
         /**
          * val of intent valor de intenção declarada para chamada da classe segunda tela,
          *
