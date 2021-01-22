@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Exemplo de segunda tela</string>
+    <string name="button_text">Next</string>
+</resources>
