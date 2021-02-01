@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 
 
 class MainActivity : AppCompatActivity() {
@@ -34,11 +35,13 @@ class MainActivity : AppCompatActivity() {
     fun btnClick(view: View){
         /**
          * val of intent valor de intenção declarada para chamada da classe segunda tela,
+         * passando o parametro de inicialização da segundaTela.class
          *
          */
         val callSecondScreen = Intent(this, segundaTela::class.java)
         //initialization of intent
         startActivity(callSecondScreen)
+        Toast.makeText(this, "show second screen", Toast.LENGTH_SHORT).show()
 
     }
 }

@@ -12,8 +12,13 @@
         android:layout_height="45dp"
         android:text="@string/button_text"
         android:onClick="btnClick"
+        android:textSize="15sp"
+        android:textColor="#AB05F2"
+        android:background="@drawable/nextbuttonlayout"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
