@@ -8,17 +8,16 @@
 
     <Button
         android:id="@+id/secondActivityBtn"
-        android:layout_width="90dp"
+        android:layout_width="110dp"
         android:layout_height="45dp"
-        android:text="@string/button_text"
+        android:background="@drawable/otherbutton"
         android:onClick="btnClick"
-        android:textSize="15sp"
-        android:textColor="#AB05F2"
-        android:background="@drawable/nextbuttonlayout"
+        android:text="@string/button_text"
         android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
